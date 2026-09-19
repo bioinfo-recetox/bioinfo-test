@@ -1,0 +1,9 @@
+---
+title: "New colleague"
+date: 2025-06-01
+author: Vlad Popovici
+---
+
+We are happy to welcome Dr. Vahid Anari, who joined our team as a postdoctoral
+researcher. His research will focus on computational pathology and machine
+learning applications in histopathology image analysis.

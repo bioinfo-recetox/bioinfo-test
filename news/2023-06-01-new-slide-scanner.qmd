@@ -1,0 +1,12 @@
+---
+title: "New slide scanner"
+date: 2023-06-01
+author: Vlad Popovici
+image: ../media/news/2023-06-01-new-slide-scanner.jpg
+---
+
+Starting this month, we have a new scanner to support our histopathology
+image analysis projects. This is a 3D Histech
+[scanner](https://www.3dhistech.com/research/pannoramic-digital-slide-scanners/pannoramic-midi/)
+for small-to-medium throughput but producing high quality images both in
+brightfield and fluorescence modalities.

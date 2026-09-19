@@ -14,6 +14,7 @@
   funding: EU-H2020 (Grant agreement ID 825410)
   tags: [microbiome, horizon, crc, multiomics, biomarkers]
   date: 2019-05-01
+  image: media/projects/oncobiome.png
   links:
     website: https://www.oncobiome.eu/
   body: |
@@ -87,6 +88,7 @@
   partners: [RECETOX, MMCI, CEITEC]
   tags: [gacr, cpath, ith, transcriptomics, crc]
   date: 2022-02-01
+  image: media/projects/gacr2019_vp.jpg
   links:
     data: https://doi.org/10.5281/zenodo.7505364
   body: |
@@ -137,6 +139,7 @@
   partners: [RECETOX, MMCI, CEITEC]
   tags: [azv, crc, ith, biomarkers, multiomics]
   date: 2019-02-01
+  image: media/projects/azv2019_vp.jpg
   body: |
     ## Background
 
@@ -188,6 +191,7 @@
   partners: [RECETOX, MMCI]
   tags: [azv, microbiome, crc, ith]
   date: 2016-02-01
+  image: media/projects/azv2016_eb.jpg
 
 - key: mercuric
   kind: research
@@ -200,6 +204,7 @@
   funding: EU-FP7 (Grant agreement ID 602901)
   tags: [horizon, crc, biomarkers]
   date: 2013-05-01
+  image: media/projects/mercuric.png
   links:
     report: https://cordis.europa.eu/project/id/602901/reporting
   body: |

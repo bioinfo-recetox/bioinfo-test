@@ -1,0 +1,16 @@
+---
+title: "Cytomine server is working!"
+date: 2021-06-10
+author: Vlad Popovici
+categories: [cpath]
+---
+
+The local [Cytomine](https://cytomine.com) server is up and running!
+
+Finally! We have our own server for hosting the whole slide images: visit
+[CPath](https://cpath.recetox.muni.cz) to have a look.
+
+Our ever-growing collection of pathology images has a new home. The
+[Cytomine](https://cytomine.com) server has been deployed locally and it
+already hosts more than 1,000 slides. It enables us a faster and more
+convenient collaboration with colleagues from Pathology departments.

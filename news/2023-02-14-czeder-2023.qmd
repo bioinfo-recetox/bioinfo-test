@@ -1,0 +1,15 @@
+---
+title: "CZEDER 2023"
+date: 2023-02-14
+author: Vlad Popovici
+categories: [oncobiome]
+image: ../media/news/2023-02-14-czeder-2023.jpg
+---
+
+The 20th Czech Days for European Research, Prague, CZ.
+
+The [Oncobiome](https://www.oncobiome.eu) project was presented at the
+[20th CZEDER](https://www.czeder.cz/), organized by the Technology Centre Prague.
+At the meeting, Drs. Budinská and Popovici presented the project and some of
+its most salient results, as well as other activities of
+[RECETOX](https://recetox.muni.cz).

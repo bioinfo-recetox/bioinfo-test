@@ -1,0 +1,13 @@
+---
+title: "QBI SABI 2023"
+date: 2023-03-27
+author: Vlad Popovici
+categories: [azv, crc]
+image: ../media/news/2023-03-27-qbi-sabi-2023.jpg
+---
+
+[The Spatial Analysis for Biological Imaging workshop.](https://www.quantitativebioimaging.com/qbi2023/sabi2023/)
+
+We present new results from the analysis of the spatial distribution of T-cells
+in colorectal cancer. These results were obtained in the framework of the
+AZV-funded [project](../projects.qmd).

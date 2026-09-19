@@ -1,0 +1,15 @@
+---
+title: "Oncobiome General Assembly meeting"
+date: 2022-10-15
+author: Vlad Popovici
+categories: [oncobiome, microbiome]
+image: ../media/news/2022-10-15-oncobiome-ga-meeting.jpg
+---
+
+The 2022 Oncobiome's GA meeting took place in Torino, IT.
+
+The [Oncobiome](https://www.oncobiome.eu) project had its 2022's General Assembly
+meeting hosted by our colleagues in Torino, Dr Alessio Naccarati (IIGM) and
+Dr Francesca Cordero (University of Turin). At the meeting, Drs. Budinská and
+Popovici presented our group's recent results on building predictors based on
+miRNA and metagenomics data.

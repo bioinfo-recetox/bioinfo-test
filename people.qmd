@@ -6,6 +6,18 @@ listing:
   template: _templates/people-card.ejs
   fields: [name, role, group, bio, interests, links, alumni, photo]
   sort: false
+aliases:
+  - /people/
+  - /authors/
+  - /author/eva-budinska/
+  - /author/vlad-popovici/
+  - /author/vahid-anari/
+  - /author/daniela-majercikova/
+  - /author/martina-carnogurska-hrivnakova/
+  - /author/martina-hrivnakova/
+  - /author/anna-pacinkova/
+  - /author/barbora-zwinsova/
+  - /author/maria-persico/
 ---
 
 Meet the IB2 team. To add someone, edit [`people.yml`](https://github.com/bioinfo-recetox/ib2web/blob/main/people.yml) — see `README.md` for the recipe.

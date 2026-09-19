@@ -1,5 +1,7 @@
 ---
 title: "Contact"
+aliases:
+  - /contact/
 ---
 
 Questions about our current research? Want to initiate a new project? Or

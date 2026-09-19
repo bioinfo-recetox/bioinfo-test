@@ -3,6 +3,8 @@ title: "Cytomine server is working!"
 date: 2021-06-10
 author: Vlad Popovici
 categories: [cpath]
+aliases:
+  - /post/21-06-10-cytomine/
 ---
 
 The local [Cytomine](https://cytomine.com) server is up and running!

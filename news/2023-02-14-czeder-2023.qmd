@@ -4,6 +4,8 @@ date: 2023-02-14
 author: Vlad Popovici
 categories: [oncobiome]
 image: ../media/news/2023-02-14-czeder-2023.jpg
+aliases:
+  - /post/23-02-14-czeder/
 ---
 
 The 20th Czech Days for European Research, Prague, CZ.

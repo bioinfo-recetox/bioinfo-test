@@ -3,6 +3,8 @@ title: "New slide scanner"
 date: 2023-06-01
 author: Vlad Popovici
 image: ../media/news/2023-06-01-new-slide-scanner.jpg
+aliases:
+  - /post/23-06-01-scanner/
 ---
 
 Starting this month, we have a new scanner to support our histopathology

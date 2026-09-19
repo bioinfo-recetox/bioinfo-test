@@ -2,6 +2,8 @@
 title: "New doctor"
 date: 2025-04-15
 author: Vlad Popovici
+aliases:
+  - /post/25-04-15-barboraphd/
 ---
 
 Congratulations to Barbora Zwinsová for successfully defending her PhD thesis

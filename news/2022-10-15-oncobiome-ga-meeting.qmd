@@ -4,6 +4,9 @@ date: 2022-10-15
 author: Vlad Popovici
 categories: [oncobiome, microbiome]
 image: ../media/news/2022-10-15-oncobiome-ga-meeting.jpg
+aliases:
+  - /post/22-10-15-oncobiome/
+  - /tag/oncobiome/
 ---
 
 The 2022 Oncobiome's GA meeting took place in Torino, IT.

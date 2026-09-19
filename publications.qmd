@@ -1,5 +1,31 @@
 ---
 title: "Publications"
+aliases:
+  - /publication/
+  - /publication/2020-cancers/
+  - /publication/2021-cancers/
+  - /publication/2021-esmo_gi/
+  - /publication/2022-bmc_bioinformatics/
+  - /publication/2022-eacr/
+  - /publication/2022-esmo_gi/
+  - /publication/2022-frontnutr/
+  - /publication/2023-bmc_microbiology/
+  - /publication/2023-eacr_1/
+  - /publication/2023-eacr_2/
+  - /publication/2023-elife/
+  - /publication/2023-gastroent/
+  - /publication/2023-jcb/
+  - /publication/2024-amb/
+  - /publication/2024-benef_microbes/
+  - /publication/2024-fcim/
+  - /publication/2024-frontonc/
+  - /publication/2024-scirep/
+  - /publication/2025-bmkres/
+  - /publication/2025-cancmed/
+  - /publication/2025-jpcr/
+  - /publication/2025-natmed_1/
+  - /publication/2025-natmed_2/
+  - /publication/2025-oto/
 ---
 
 All publications of the IB2 group. To add one, add a BibTeX entry to

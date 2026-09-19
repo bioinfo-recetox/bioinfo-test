@@ -7,6 +7,8 @@ listing:
   categories: true
   feed: false
   date-format: "MMMM D, YYYY"
+aliases:
+  - /post/
 ---
 
 To add an item, create a new dated `.qmd` file in `news/` — see `README.md` for the recipe.

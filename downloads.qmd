@@ -1,5 +1,7 @@
 ---
 title: "Downloads"
+aliases:
+  - /downloads/
 ---
 
 The following resources are provided from this site:

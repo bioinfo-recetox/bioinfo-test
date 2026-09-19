@@ -31,6 +31,8 @@ website:
     left:
       - text: News
         href: news/index.qmd
+      - text: Events
+        href: events/index.qmd
       - text: Projects
         href: projects.qmd
       - text: People

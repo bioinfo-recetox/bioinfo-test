@@ -1,5 +1,7 @@
 ---
 title: "Welcome to IB2"
+aliases:
+  - /home/
 ---
 
 The **Integrative Bioinformatics and Biostatistics** group at RECETOX, Masaryk

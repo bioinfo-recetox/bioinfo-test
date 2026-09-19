@@ -1,5 +1,32 @@
 ---
 title: "Projects"
+aliases:
+  - /project/
+  - /projects/
+  - /project/azv2016_eb/
+  - /project/azv2019_vp/
+  - /project/gacr2019_vp/
+  - /project/mercuric/
+  - /project/methods/
+  - /project/oncobiome/
+  - /tag/azv/
+  - /tag/biomarkers/
+  - /tag/cpath/
+  - /tag/crc/
+  - /tag/gacr/
+  - /tag/horizon/
+  - /tag/ith/
+  - /tag/metagenomics/
+  - /tag/methods/
+  - /tag/microbiome/
+  - /tag/morphotypes/
+  - /tag/multiomics/
+  - /tag/transcriptomics/
+  - /tags/
+  - /categories/
+  - /publication_types/
+  - /publication-type/1/
+  - /publication-type/2/
 ---
 
 Research projects of the IB2 group, and the software tools we maintain. To add

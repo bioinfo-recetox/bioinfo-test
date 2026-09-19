@@ -1,0 +1,5 @@
+---
+title: "People"
+---
+
+*Rendered from `people.yml` as a Quarto grid listing — added in a later step.*

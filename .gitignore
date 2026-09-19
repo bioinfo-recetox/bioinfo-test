@@ -1,0 +1,8 @@
+/.quarto/
+/_site/
+/legacy/
+
+.DS_Store
+*.swp
+
+**/*.quarto_ipynb

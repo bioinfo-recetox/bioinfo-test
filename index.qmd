@@ -1,0 +1,7 @@
+---
+title: "Welcome to IB2"
+---
+
+The Integrative Bioinformatics and Biostatistics group at RECETOX, Masaryk University.
+
+*Home page content, replacing the old Wowchemy slider/widgets with a plain layout, is built in a later step.*

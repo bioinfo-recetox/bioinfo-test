@@ -1,0 +1,47 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - "*.qmd"
+    - "*/*.qmd"
+    - "!legacy/"
+
+# NOTE on Quarto version pinning: the version used to build this site locally
+# and in CI must always match. It is pinned in ONE place, the QUARTO_VERSION
+# env var in .github/workflows/publish.yml (added in a later step). Currently
+# pinned to 1.10.18 locally; keep both in sync when upgrading (see README.md).
+
+website:
+  title: "IB2: Integrative Bioinformatics and Biostatistics"
+  description: "Integrative Bioinformatics and Biostatistics group @ RECETOX, Masaryk University"
+
+  # TODO (Step 7, needs owner confirmation): confirm actual GitHub org/repo
+  # name before wiring up GitHub Actions. Placeholder assumes the group keeps
+  # using the "bioinfo-recetox" org, matching the current bioinfo-recetox.github.io site.
+  site-url: "https://bioinfo-recetox.github.io/ib2web/"
+  repo-url: "https://github.com/bioinfo-recetox/ib2web"
+  repo-actions: [edit, issue]
+
+  navbar:
+    left:
+      - text: News
+        href: news/index.qmd
+      - text: Projects
+        href: projects.qmd
+      - text: People
+        href: people.qmd
+      - text: Downloads
+        href: downloads.qmd
+      - text: Publications
+        href: publications.qmd
+    right:
+      - text: Contact
+        href: contact.qmd
+
+  page-footer:
+    center: "© IB2 @ RECETOX, Masaryk University"
+
+format:
+  html:
+    theme: cosmo
+    toc: false

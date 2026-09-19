@@ -1,0 +1,5 @@
+---
+title: "Publications"
+---
+
+*Filterable listing driven by `publications.bib` — added in a later step.*

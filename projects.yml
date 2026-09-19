@@ -1,0 +1,256 @@
+# Projects of the IB2 group.
+#
+# `kind: research` = grant-funded research project (rendered with full body).
+# `kind: tool`      = a software tool/package we maintain (short entry, just links).
+# `tags` match the categories used on the publications page.
+
+- key: oncobiome
+  kind: research
+  title: >
+    ONCOBIOME: Gut OncoMicrobiome Signatures associated with cancer incidence,
+    prognosis and prediction of treatment response
+  summary: Exploiting the gut microbiome for cancer diagnosis and treatment
+  pi: Eva Budinská (PI for MUNI)
+  funding: EU-H2020 (Grant agreement ID 825410)
+  tags: [microbiome, horizon, crc, multiomics, biomarkers]
+  date: 2019-05-01
+  links:
+    website: https://www.oncobiome.eu/
+  body: |
+    ## Overview
+
+    (from the project's [official website](https://www.oncobiome.eu/))
+
+    In view of the world-wide epidemic of cancer, which is linked to environmental and
+    life-style factors, there is an unmet medical need in breakthrough concepts to
+    understand the causes of neoplasia. One possible factor contributing to
+    oncogenesis and tumor progression that has been neglected is the microbiota.
+
+    Indeed, the mammalian phenotype is largely driven by the combination of host and
+    microbial genes. Beyond its role in regulating many fundamental functions of
+    health, the intestinal *metagenome* appears to be dramatically implicated in
+    cancer initiation, progression as well as responses to therapies, even for
+    cancers developing in sterile tissues outside of the gastrointestinal tract.
+
+    Studies on the gut microbiome have so far been organized on a small and local
+    scale, and there is an urgent need to:
+
+    * Fully identify and functionally characterize cancer-relevant microbial species
+      by means of robust and standardized methods to validate cancer-associated gut
+      microbiome fingerprints
+    * Assess their clinical relevance for patient prognosis
+    * Develop diagnostic tools that could become part of the oncological arsenal for
+      the prevention, prediction and personalization of cancer therapy.
+
+    ## Project
+
+    Accumulating evidence underscores the role of the gut microbiome in health and
+    disease, including cancer. The scope of the EU-funded ONCOBIOME project is to
+    identify and functionally characterise the commensal bacteria of high clinical
+    relevance. Using cohorts of more than 3,000 patients with cancer across 10
+    countries, project partners will identify microbiome signatures related to
+    cancer occurrence, prognosis and response to therapy. They will also
+    investigate the mechanistic interplay with the host metabolism, immunity and
+    oncogenesis. Apart from fundamental knowledge, project results will lead to
+    novel diagnostic and prognostic tests for cancer, as well as tailor-made pre-
+    and pro-biotics.
+
+    ## Objectives
+
+    Beyond its role in regulating multiple physiological functions that impact
+    health, the intestinal metagenome is implicated in cancer initiation,
+    progression and responses to therapies, even for extraintestinal neoplasia.
+    Hence, there is an urgent need to fully identify and functionally characterize
+    minimalist commensal ecosystems relevant to cancer, with reliable and robust
+    methods, to validate cancer-associated gut microbiome fingerprints of high
+    clinical relevance, and to develop diagnosis tools that will become part of the
+    oncological arsenal for the optimization and personalization of therapy. Based
+    on retro- and pro-spective studies, with large discovery and validation cohorts
+    enrolling >9,000 cancer patients across 10 countries, ancillary to ongoing
+    innovative clinical trials or FDA/EMA approvals across 4 frequent cancer types,
+    ONCOBIOME pursues the following aims: 1/ identify and validate core or
+    cancer-specific Gut OncoMicrobiome Signatures (GOMS) associated with cancer
+    occurrence, prognosis, response to, or progression on, therapy
+    (polychemotherapy, immune checkpoint inhibitors, dendritic cell vaccines) or
+    adverse effects, 2/ decipher the functional relevance of these cancer-associated
+    gut commensal ecosystems in the regulation of host metabolism, immunity and
+    oncogenesis, 3/ integrate these GOMS with other oncology hallmarks (clinics,
+    genomics, immunomics, metabolomics), 4/ design optimal companion tests, based on
+    those integrated signatures, to predict cancer occurrence and progression.
+
+- key: gacr2019_vp
+  kind: research
+  title: Molecular portraits of major morphological components of colon tumors
+  summary: We investigate the molecular landscape of the morphotypes.
+  pi: Vlad Popovici
+  funding: GACR (GA19-08646S)
+  partners: [RECETOX, MMCI, CEITEC]
+  tags: [gacr, cpath, ith, transcriptomics, crc]
+  date: 2022-02-01
+  links:
+    data: https://doi.org/10.5281/zenodo.7505364
+  body: |
+    Data available on the [Downloads](downloads.qmd) page or
+    [directly on Zenodo](https://doi.org/10.5281/zenodo.7505364).
+
+    ## Background
+
+    Solid tumors manifest various degrees of heterogeneity and several taxonomies
+    have been proposed for trying to group the tumors into more homogeneous and
+    comprehensible categories. Colorectal cancer (CRC) is not different. In fact,
+    due to its usually slower progression and somehow later detection, it acquires
+    more mutations and manifests higher intra-tumor morphological diversity than
+    some other cancers.
+
+    ## Project
+
+    In this project, we investigate the CRC heterogeneity starting with its
+    morphological features. Using the morphology as an anchor for tumor sampling,
+    we explore the diversity of the molecular programs that drive the tumor
+    evolution. We have obtained about 200 expression profiles from over 100
+    different tumors, representing six different morphotypes (complex tubular,
+    desmoplastic, mucinous, papillary, serrated and solid/trabecular). In addition,
+    we have also profiled tumor-adjacent normal tissue and tumor-associated stroma
+    for building reference profiles.
+
+    ## Main results
+
+    The morphology-guided tumor sampling allows for a finer resolution than
+    whole-tumor profiling. On the other hand, single-cell assays are able to
+    extract very specific profiles from tiny tumor regions, however at the cost of
+    losing much of the phenotypical context. The bioinformatics analyses revealed a
+    high degree of variability in gene expression between regions. More
+    importantly, even within the same tumor (same section), we were able to
+    identify differences in major pathways (e.g. MAPK, WNT, TGFb). Since these
+    pathways are fundamental in tumor classification (e.g. by consensus molecular
+    subtypes, or by prognostic signatures), it comes as no surprise that these
+    classifiers vary also across regions, even within the tumor. These results call
+    for a deeper investigation of the impact of intra-tumoral heterogeneity on the
+    molecular-/expression-based decision systems.
+
+- key: azv2019_vp
+  kind: research
+  title: Clinical implications of intra-tumour heterogeneity in colon cancer
+  summary: Region-based biomarkers.
+  pi: Vlad Popovici
+  funding: AZV (NV19-03-00298)
+  partners: [RECETOX, MMCI, CEITEC]
+  tags: [azv, crc, ith, biomarkers, multiomics]
+  date: 2019-02-01
+  body: |
+    ## Background
+
+    Differences that exist both between and within tumours of the same cancer type
+    are a major hurdle towards proper patient selection for a given treatment and
+    for developing more targeted therapies. Depending on the perspective under
+    which these differences are investigated, different categorisation paradigms
+    have emerged. The systematisation of clinical and histopathological parameters
+    led to the definition of the current TNM staging system which presently
+    constitutes the gold standard for diagnosis and prognosis. At a different
+    scale, intra-tumour heterogeneity (ITH) has been a long-recognised phenomenon,
+    but its tremendous impact on diagnosis and treatment outcome only recently
+    started to be systematically investigated. Experiments such as single-cell or
+    surgical tumour multi-sampling sequencing portrayed a highly heterogeneous
+    picture of the various cancers with trunk and branch driver mutations
+    distributed non-uniformly in time and space. In colon cancer, while KRAS, NRAS
+    and BRAF appear to be trunk driver mutations, TP53 and PIK3CA seem to be branch
+    driver mutations.
+
+    ## Project
+
+    The overarching objective of this project is to explore and characterise the
+    impact of ITH on the clinical decisions regarding prognosis (for stage II
+    patients) and personalised treatment (for metastatic patients). Such analyses
+    require multi-region-based tumour sampling which, inherently, increases the
+    costs of the experiments and may introduce — if not controlled — additional
+    noise in the data due to the particular choices made in selecting the sampling
+    sites. In order to control for these factors we propose to select the sampling
+    regions based on their morphological characteristics, thus a pathologist could
+    relatively easily identify them.
+
+- key: azv2016_eb
+  kind: research
+  title: >
+    Colobiome: Tumour-adjacent microbiome and immune profile of tumour in the
+    context of heterogeneity and aggressiveness of colorectal cancer
+  summary: >
+    The aim is to improve prognostic and predictive stratification of CRC by
+    defining microbial-immune-molecular CRC pathophenotypes and correlate them
+    with tumour aggressiveness and patient prognosis.
+  pi: Eva Budinská
+  # NOTE: the legacy source page for this project stated "Funding: GACR
+  # (GA19-08646S); Principal investigator: Vlad Popovici" — identical, word for
+  # word, to the unrelated gacr2019_vp project below. Given the folder is named
+  # "azv2016_eb" and lists Eva Budinská as author/PI, that funding line looks
+  # like a copy-paste error in the legacy site rather than fact. Left blank
+  # here pending the correct AZV grant number from the owner (see report).
+  funding: ~ # TODO: confirm correct AZV grant number (legacy text appears to be a copy-paste error)
+  partners: [RECETOX, MMCI]
+  tags: [azv, microbiome, crc, ith]
+  date: 2016-02-01
+
+- key: mercuric
+  kind: research
+  title: >
+    MErCuRIC: A Phase Ia/b study of MEK1/2 inhibitor PD-0325901 or MEK-162 with
+    cMET inhibitor PF-02341066 in RAS-MT and RAS-WT (with aberrant c-MET)
+    colorectal cancer patients
+  summary: Clinical trial for a cMET inhibitor.
+  pi: Vlad Popovici (PI for MUNI)
+  funding: EU-FP7 (Grant agreement ID 602901)
+  tags: [horizon, crc, biomarkers]
+  date: 2013-05-01
+  links:
+    report: https://cordis.europa.eu/project/id/602901/reporting
+  body: |
+    ## Objective
+
+    Colorectal cancer (CRC) is the 3rd most common cancer in Europe, and with
+    approximately 200,000 deaths per year, it remains the 2nd most common cause of
+    cancer death. More than half of all CRC patients develop distant metastases and
+    have 5-year overall survival (OS) of less than 5% because of ineffective
+    treatments. Increased understanding of cancer biology, coupled with the
+    implementation of "omics"-based approaches, has revealed that cancer must be
+    considered a heterogeneous disease. Historically, "one-size-fits-all"
+    approaches have been standard practice in CRC treatment, but with the
+    increased understanding of the molecular/genetic heterogeneity of CRC, it is
+    clear that novel treatments must be developed and tested in selected subgroups
+    to maximize the benefit of these new developments. MErCuRIC is a multicentre
+    phase Ia/b clinical trial which assessed a novel therapeutic strategy (combined
+    treatment of a MEK inhibitor PD-0325901 or MEK-162 with a MET inhibitor
+    PF-02341066) to combat metastasis, improve survival and change current clinical
+    practice for CRC patients with RAS mutant (MT) and RAS wild type (WT) (with
+    aberrant c-MET) tumours. The consortium went beyond the state-of-the-art by (i)
+    employing a novel treatment strategy targeting the biology of the disease and
+    by (ii) using next generation sequencing (NGS) and 'xenopatients' to identify
+    CRC patient subgroups who would maximally benefit from this novel treatment
+    strategy.
+
+    ## Results
+
+    The PK analyses found that giving Binimetinib with Crizotinib did not affect
+    the PK of Binimetinib compared to giving Binimetinib alone. A Phase Ib (dose
+    expansion) study was undertaken with Binimetinib and Crizotinib with mCRC
+    patients, with the aim of looking at three sub-groups of mCRC patients expected
+    to respond to the therapy. Interim analyses found no clinical response in one
+    sub-group, though PD results showed evidence of inhibition of the targeted
+    molecular pathways. Recruitment to the remaining two sub-groups proved
+    infeasible due to the rarity of patients.
+
+- key: intomics
+  kind: tool
+  title: IntOMICS
+  summary: Bayesian framework for multimodal data integration and regulatory network inference.
+  authors: [annap, vladp]
+  tags: [methods, multiomics]
+  links:
+    repo: https://bioconductor.org/packages/devel/bioc/html/IntOMICS.html
+    paper: publications.qmd
+
+- key: topaseq
+  kind: tool
+  title: ToPASeq
+  summary: Topology-based pathway analysis for RNA-Seq data.
+  tags: [methods]
+  links:
+    repo: http://bioconductor.org/packages/3.3/bioc/html/ToPASeq.html

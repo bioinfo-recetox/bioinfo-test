@@ -1,0 +1,143 @@
+# People of the IB2 group.
+#
+# One entry per person. `group` controls which section of the People page
+# they appear in; `alumni: true` marks people no longer active in the group.
+# `photo` paths are relative to this file and are filled in when media is
+# converted (Step 3) — see README.md for how to add a new person.
+
+- key: evab
+  name: Eva Budinská
+  role: Head of IB2, Assistant Professor of Bioinformatics
+  group: Principal Investigators
+  alumni: false
+  photo: media/people/evab.jpg
+  bio: My research interests include metagenomics, multi-omics bioinformatics and translational oncology.
+  interests:
+    - Metagenomics
+    - Multi-OMICS bioinformatics
+    - Translational oncology
+  education:
+    - degree: PhD in Mathematical Biology
+      institution: Faculty of Medicine, Masaryk University, Brno, CZ
+      year: 2008
+    - degree: MSc in Mathematical Biology
+      institution: Faculty of Science, Masaryk University, Brno, CZ
+      year: 2004
+  links:
+    email: eva.budinska@recetox.muni.cz
+    google_scholar: https://scholar.google.com/citations?user=dX1z5OcAAAAJ&hl=en
+
+- key: vladp
+  name: Vlad Popovici
+  role: Associate Professor of Computer Science
+  group: Principal Investigators
+  alumni: false
+  photo: media/people/vladp.jpg
+  bio: |
+    Vlad Popovici is a professor of computer science at the Integrative Bioinformatics and Biostatistics
+    group, RECETOX-MUNI. His research interests include computational pathology, pattern recognition and
+    bioinformatics for biomarker discovery. For more than a decade, he applied his research in the
+    field of oncology, especially in colorectal cancer.
+
+    Currently, he focuses on spatially-resolved transcriptomics with the aim of discovering
+    new connections between gene expression profiles and tumor morphology.
+  interests:
+    - Computational Pathology
+    - Pattern Recognition
+    - Bioinformatics for biomarker discovery
+  education:
+    - degree: PhD in Electrical Engineering
+      institution: Ecole Polytechnique Federale de Lausanne (EPFL), CH.
+      year: 2004
+    - degree: MSc in Computer Science
+      institution: Technical University of Cluj-Napoca, RO.
+      year: 1999
+    - degree: Eng in Computer Science
+      institution: Technical University of Cluj-Napoca, RO.
+      year: 1998
+  links:
+    email: vlad.popovici@recetox.muni.cz
+    google_scholar: https://scholar.google.com/citations?user=hLJXAncAAAAJ&hl=en
+    github: https://github.com/vladpopovici
+
+- key: vahida
+  name: Vahid Anari
+  role: Postdoctoral Researcher
+  group: Researchers
+  alumni: false
+  photo: media/people/vahida.jpg
+  interests:
+    - Computational pathology
+  links:
+    email: vahid.anari@recetox.muni.cz
+    google_scholar: https://scholar.google.com/citations?user=CIPqHGQAAAAJ&hl=en&oi=ao
+
+- key: danielam
+  name: Daniela Majerčíková
+  role: PhD student
+  group: Grad Students
+  alumni: false
+  photo: media/people/danielam.jpg
+  interests:
+    - Tumor microenvironment
+    - Tumor heterogeneity
+    - Pathology
+  links:
+    email: daniela.majercikova@recetox.muni.cz
+
+- key: martinah
+  name: Martina Čarnogurská (Hrivňáková)
+  role: PhD student
+  group: Grad Students
+  alumni: false
+  photo: media/people/martinah.jpg
+  interests:
+    - Microbiome
+  education:
+    - degree: MSc in Biology
+      institution: Masaryk University, CZ.
+      year: 2019
+    - degree: Bc in Biology
+      institution: Masaryk University, CZ.
+      year: 2015
+  links:
+    email: martina.hrivnakova@recetox.muni.cz
+
+- key: annap
+  name: Anna Pačinková
+  role: PhD student
+  group: Alumni
+  alumni: true
+  photo: media/people/annap.jpg
+  interests:
+    - Multimodal OMICS
+  education:
+    - degree: MSc in Experimental Biology
+      institution: Masaryk University, CZ.
+      year: 2016
+    - degree: Bc in Experimental Biology
+      institution: Masaryk University, CZ.
+      year: 2014
+  links:
+    email: anna.pacinkova@recetox.muni.cz
+
+- key: barboraz
+  name: Barbora Zwinsová
+  role: PhD student
+  group: Alumni
+  alumni: true
+  photo: media/people/barboraz.jpg
+  links:
+    email: barbora.zwinsova@recetox.muni.cz
+
+- key: mariap
+  name: Maria Persico
+  role: Postdoctoral Researcher
+  group: Alumni
+  alumni: true
+  photo: media/people/mariap.jpg
+  interests:
+    - Bioinformatics
+  links:
+    email: maria.persico@recetox.muni.cz
+    google_scholar: https://scholar.google.com/citations?user=VuSoeHYAAAAJ&hl=en

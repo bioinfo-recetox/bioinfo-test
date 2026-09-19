@@ -2,4 +2,80 @@
 title: "Publications"
 ---
 
-*Filterable listing driven by `publications.bib` — added in a later step.*
+All publications of the IB2 group. To add one, add a BibTeX entry to
+[`publications.bib`](https://github.com/bioinfo-recetox/ib2web/blob/main/publications.bib)
+(a `keywords` field drives the category filter below) — see `README.md` for
+the recipe.
+
+```{ojs}
+//| echo: false
+pubs = FileAttachment("_generated/publications.json").json()
+```
+
+```{ojs}
+//| echo: false
+categoriesOf = (d) => (d.keyword ?? "").split(",").map(s => s.trim()).filter(Boolean)
+```
+
+```{ojs}
+//| echo: false
+allCategories = Array.from(new Set(pubs.flatMap(categoriesOf))).sort()
+```
+
+```{ojs}
+//| echo: false
+viewof activeCategories = Inputs.checkbox(allCategories, {label: "Filter by category"})
+```
+
+```{ojs}
+//| echo: false
+filtered = activeCategories.length === 0
+  ? pubs
+  : pubs.filter(d => categoriesOf(d).some(c => activeCategories.includes(c)))
+```
+
+```{ojs}
+//| echo: false
+yearOf = (d) => d.issued?.["date-parts"]?.[0]?.[0] ?? 0
+```
+
+```{ojs}
+//| echo: false
+sorted = filtered.slice().sort((a, b) => yearOf(b) - yearOf(a))
+```
+
+```{ojs}
+//| echo: false
+html`<p class="text-muted">${sorted.length} of ${pubs.length} publications shown.</p>
+<ol class="pub-list">${sorted.map(formatEntry)}</ol>`
+```
+
+```{ojs}
+//| echo: false
+function formatAuthors(authors) {
+  if (!authors) return "";
+  return authors.map(a => a.literal ?? `${a.given ?? ""} ${a.family ?? ""}`.trim()).join(", ");
+}
+```
+
+```{ojs}
+//| echo: false
+function formatEntry(d) {
+  const year = yearOf(d) || "n.d.";
+  const journal = d["container-title"] ?? "";
+  const vol = d.volume ? `, vol. ${d.volume}` : "";
+  const issue = d.issue ? ` (${d.issue})` : "";
+  const pages = d.page ? `, ${d.page}` : "";
+  const link = d.DOI ? `https://doi.org/${d.DOI}` : d.URL;
+  const abstractBlock = d.abstract
+    ? html`<details><summary>Abstract</summary><p>${d.abstract}</p></details>`
+    : "";
+  return html`<li class="pub-entry mb-3">
+    <div class="pub-title fw-bold">${d.title}</div>
+    <div class="pub-meta">${formatAuthors(d.author)} (${year}). <em>${journal}</em>${vol}${issue}${pages}.
+      ${link ? html` <a href="${link}" target="_blank">link</a>` : ""}
+    </div>
+    ${abstractBlock}
+  </li>`;
+}
+```

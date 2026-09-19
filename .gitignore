@@ -1,6 +1,7 @@
 /.quarto/
 /_site/
 /legacy/
+/_generated/
 
 .DS_Store
 *.swp

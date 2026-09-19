@@ -2,4 +2,27 @@
 title: "Downloads"
 ---
 
-*Converted from `legacy/content/downloads/downloads.md` — added in a later step.*
+The following resources are provided from this site:
+
+- Poster [EACR 2023-1](files/poster-2023-EACR-1.pdf)
+- Poster [EACR 2023-2](files/poster-2023-EACR-2.pdf)
+- Poster [ESMO-GI 2022](files/poster-2022-ESMOGI-P_281.pdf)
+- Poster [EACR 2022](files/poster-2022-EACR-1255.pdf)
+- Poster [ESMO-GI 2021](files/poster-2021-ESMOGI.pdf)
+- Talk at [QBI SABI 2023](https://www.quantitativebioimaging.com/qbi2023/sabi2023/): [slides](files/popovici-qbi2023.pdf)
+- [Data associated](https://doi.org/10.5281/zenodo.7505364) with the
+  "Molecular portraits of morphological regions" [project](projects.qmd)
+
+Additional sources for various projects:
+
+- [Data associated](https://doi.org/10.5281/zenodo.10589453) with the
+  "Clinical implications of intra-tumour heterogeneity in colon cancer"
+  [project](projects.qmd)
+- Raw data from the same project can be downloaded in 7 parts:
+  [part 1](https://doi.org/10.5281/zenodo.10589515) ·
+  [part 2](https://doi.org/10.5281/zenodo.10589646) ·
+  [part 3](https://doi.org/10.5281/zenodo.10590038) ·
+  [part 4](https://doi.org/10.5281/zenodo.10590151) ·
+  [part 5](https://doi.org/10.5281/zenodo.10590400) ·
+  [part 6](https://doi.org/10.5281/zenodo.10590592) ·
+  [part 7](https://doi.org/10.5281/zenodo.10590697)

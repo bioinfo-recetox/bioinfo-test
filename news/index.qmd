@@ -1,5 +1,12 @@
 ---
 title: "News"
+listing:
+  contents: "*.qmd"
+  type: default
+  sort: "date desc"
+  categories: true
+  feed: false
+  date-format: "MMMM D, YYYY"
 ---
 
-*News items (one dated `.qmd` file per item, converted from `legacy/content/post/`) are added in a later step.*
+To add an item, create a new dated `.qmd` file in `news/` — see `README.md` for the recipe.

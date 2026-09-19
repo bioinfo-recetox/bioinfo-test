@@ -2,4 +2,21 @@
 title: "Contact"
 ---
 
-*Static contact info (email, phone, address, office hours) — no submission form, per decision. Added in a later step.*
+Questions about our current research? Want to initiate a new project? Or
+simply want to get in touch with us? Reach out by email.
+
+**Eva Budinská**, Head of IB2
+[eva.budinska@recetox.muni.cz](mailto:eva.budinska@recetox.muni.cz)
+
+**Phone:** +420 549 49 3993
+
+**Address:**\
+RECETOX, Masaryk University\
+34 Kamenice / INBIT, Building D30\
+625 00 Brno, Czech Republic\
+(Office 206, 2nd floor)
+
+**Office hours:**
+
+- Monday 11:00–13:00
+- Wednesday 11:00–13:00

@@ -5,6 +5,10 @@ project:
     - "*.qmd"
     - "*/*.qmd"
     - "!legacy/"
+  # Regenerates _generated/*.json from people.yml, projects.yml and
+  # publications.bib before every render (see scripts/prepare-data.ts).
+  # Runs via Quarto's bundled Deno -- no extra runtime needed.
+  pre-render: scripts/prepare-data.ts
 
 # NOTE on Quarto version pinning: the version used to build this site locally
 # and in CI must always match. It is pinned in ONE place, the QUARTO_VERSION

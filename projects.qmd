@@ -2,4 +2,87 @@
 title: "Projects"
 ---
 
-*Listing driven by `projects.yml` — added in a later step.*
+Research projects of the IB2 group, and the software tools we maintain. To add
+one, edit [`projects.yml`](https://github.com/bioinfo-recetox/ib2web/blob/main/projects.yml) — see `README.md` for the recipe.
+
+```{ojs}
+//| echo: false
+projects = FileAttachment("_generated/projects.json").json()
+```
+
+```{ojs}
+//| echo: false
+allCategories = Array.from(
+  new Set(projects.flatMap(p => p.categories ?? []))
+).sort()
+```
+
+```{ojs}
+//| echo: false
+viewof activeCategories = Inputs.checkbox(allCategories, {label: "Filter by category"})
+```
+
+```{ojs}
+//| echo: false
+filteredProjects = activeCategories.length === 0
+  ? projects
+  : projects.filter(p => (p.categories ?? []).some(c => activeCategories.includes(c)))
+```
+
+```{ojs}
+//| echo: false
+research = filteredProjects.filter(p => p.kind === "research")
+```
+
+```{ojs}
+//| echo: false
+tools = filteredProjects.filter(p => p.kind === "tool")
+```
+
+### Research projects
+
+```{ojs}
+//| echo: false
+html`<div class="project-list">${research.map(projectCard)}</div>`
+```
+
+### Software & tools
+
+```{ojs}
+//| echo: false
+html`<div class="tool-list">${tools.map(toolCard)}</div>`
+```
+
+```{ojs}
+//| echo: false
+function projectCard(p) {
+  const details = p.bodyHtml
+    ? html`<details><summary>Read more</summary>${html([p.bodyHtml])}</details>`
+    : "";
+  return html`<div class="card project-card mb-4">
+    ${p.image ? html`<img src="${p.image}" class="card-img-top project-card-photo">` : ""}
+    <div class="card-body">
+      <h4 class="card-title">${p.title}</h4>
+      <p class="card-text text-muted">
+        ${p.pi ? `PI: ${p.pi}` : ""}${p.funding ? ` · ${p.funding}` : ""}${p.partners ? ` · Partners: ${p.partners.join(", ")}` : ""}
+      </p>
+      <p class="card-text">${p.summary}</p>
+      ${p.links ? html`<p class="card-text">${Object.entries(p.links).map(([k, v]) => html`<a href="${v}">${k}</a> `)}</p>` : ""}
+      ${details}
+    </div>
+  </div>`;
+}
+```
+
+```{ojs}
+//| echo: false
+function toolCard(p) {
+  return html`<div class="card tool-card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">${p.title}</h5>
+      <p class="card-text">${p.summary}</p>
+      ${p.links ? html`<p class="card-text">${Object.entries(p.links).map(([k, v]) => html`<a href="${v}">${k}</a> `)}</p>` : ""}
+    </div>
+  </div>`;
+}
+```

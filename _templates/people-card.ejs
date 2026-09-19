@@ -1,0 +1,37 @@
+<%
+// Custom card template for the People grid listing (people.qmd).
+// Replaces Quarto's default per-field table rendering so people.yml's own
+// field names (name, role, group, bio, interests, links, alumni) can be
+// used directly, matching the fields listed in _quarto.yml's `fields:`.
+const cols = 3;
+%>
+::: {.list .grid .quarto-listing-cols-<%= cols %>}
+<% for (const item of items) { %>
+::: {.g-col-1}
+```{=html}
+<div class="card h-100 people-card<%= item.alumni ? ' people-card-alumni' : '' %>">
+  <% if (item.photo) { %>
+  <img src="<%= item.photo %>" class="card-img-top people-card-photo" alt="Photo of <%= item.name %>">
+  <% } %>
+  <div class="card-body">
+    <h5 class="card-title"><%= item.name %></h5>
+    <h6 class="card-subtitle text-muted"><%= item.role %><%= item.alumni ? ' (Alumni)' : '' %></h6>
+    <% if (item.bio) { %><p class="card-text"><%= item.bio %></p><% } %>
+    <% if (item.interests && item.interests.length) { %>
+    <p class="card-text people-card-interests"><small class="text-muted"><%= item.interests.join(' &middot; ') %></small></p>
+    <% } %>
+    <% if (item.links) { %>
+    <p class="card-text people-card-links">
+      <% const linkLabels = {email: 'Email', google_scholar: 'Google Scholar', github: 'GitHub'}; %>
+      <% for (const [k, v] of Object.entries(item.links)) { %>
+        <% const href = k === 'email' ? `mailto:${v}` : v; %>
+        <a href="<%= href %>"><%= linkLabels[k] || k %></a><%= Object.keys(item.links).indexOf(k) < Object.keys(item.links).length - 1 ? ' &middot; ' : '' %>
+      <% } %>
+    </p>
+    <% } %>
+  </div>
+</div>
+```
+:::
+<% } %>
+:::

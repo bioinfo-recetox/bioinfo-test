@@ -1,9 +1,8 @@
 /*-- scss:defaults --*/
 
-// Approximates the legacy Wowchemy site's "ocean" day theme: indigo
-// primary accent (#3f51b5) and the system font stack ("minimal" font
-// setting in the old theme.yml -- no webfont was ever loaded).
-$primary: #3f51b5;
+// Zephyr's own accent color is used as-is (chosen after previewing several
+// Bootswatch options). Keep the system font stack, matching the legacy
+// site's "minimal" font setting -- no custom webfont was ever loaded there.
 $font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
   "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
 

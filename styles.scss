@@ -1,0 +1,33 @@
+/*-- scss:defaults --*/
+
+// Approximates the legacy Wowchemy site's "ocean" day theme: indigo
+// primary accent (#3f51b5) and the system font stack ("minimal" font
+// setting in the old theme.yml -- no webfont was ever loaded).
+$primary: #3f51b5;
+$font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+  "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+
+/*-- scss:rules --*/
+
+// Fixed-height, cropped photos so grid/card rows line up regardless of the
+// original image's aspect ratio (people avatars, project featured images).
+.people-card-photo,
+.project-card-photo {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+// Alumni are still shown on the People page, just visually de-emphasized.
+.people-card-alumni {
+  opacity: 0.85;
+}
+
+.pub-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.pub-entry .pub-meta {
+  color: var(--bs-secondary-color, #6c757d);
+}

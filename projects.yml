@@ -181,13 +181,7 @@
     defining microbial-immune-molecular CRC pathophenotypes and correlate them
     with tumour aggressiveness and patient prognosis.
   pi: Eva Budinská
-  # NOTE: the legacy source page for this project stated "Funding: GACR
-  # (GA19-08646S); Principal investigator: Vlad Popovici" — identical, word for
-  # word, to the unrelated gacr2019_vp project below. Given the folder is named
-  # "azv2016_eb" and lists Eva Budinská as author/PI, that funding line looks
-  # like a copy-paste error in the legacy site rather than fact. Left blank
-  # here pending the correct AZV grant number from the owner (see report).
-  funding: ~ # TODO: confirm correct AZV grant number (legacy text appears to be a copy-paste error)
+  funding: AZV
   partners: [RECETOX, MMCI]
   categories: [azv, microbiome, crc, ith]
   date: 2016-02-01

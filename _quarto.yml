@@ -9,6 +9,15 @@ project:
   # publications.bib before every render (see scripts/prepare-data.ts).
   # Runs via Quarto's bundled Deno -- no extra runtime needed.
   pre-render: scripts/prepare-data.ts
+  resources:
+    # media/projects/* is only ever referenced from inside client-side OJS
+    # (projects.qmd renders <img> tags from JSON data at view time), so
+    # Quarto's static reference scanner never sees a literal `<img src=...>`
+    # for these files and won't copy them on its own -- list them explicitly.
+    - "media/projects/"
+    # _generated/ is derived output (see scripts/prepare-data.ts), not a
+    # real project resource to copy wholesale.
+    - "!_generated/"
 
 # NOTE on Quarto version pinning: the version used to build this site locally
 # and in CI must always match. It is pinned in ONE place, the QUARTO_VERSION
@@ -22,7 +31,7 @@ website:
   # TODO (Step 7, needs owner confirmation): confirm actual GitHub org/repo
   # name before wiring up GitHub Actions. Placeholder assumes the group keeps
   # using the "bioinfo-recetox" org, matching the current bioinfo-recetox.github.io site.
-  site-url: "https://bioinfo-recetox.github.io/ib2web/"
+  site-url: "https://bioinfo-recetox.github.io/"
   repo-url: "https://github.com/bioinfo-recetox/ib2web"
   repo-actions: [edit, issue]
   favicon: media/site/icon.png

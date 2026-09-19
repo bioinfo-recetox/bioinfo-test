@@ -28,10 +28,13 @@ website:
   title: "IB2: Integrative Bioinformatics and Biostatistics"
   description: "Integrative Bioinformatics and Biostatistics group @ RECETOX, Masaryk University"
 
-  # Confirmed final URL: this repo will become bioinfo-recetox.github.io
-  # itself (replacing the old Hugo one), served at the domain root.
+  # TEMP for testing at https://github.com/bioinfo-recetox/bioinfo-test :
+  # repo-url points at the test repo so "edit"/"report an issue" links work
+  # here. site-url is left as the final target (doesn't affect routing,
+  # only canonical/sitemap URLs). Revert repo-url at the real cutover -- see
+  # DEPLOY.md.
   site-url: "https://bioinfo-recetox.github.io/"
-  repo-url: "https://github.com/bioinfo-recetox/bioinfo-recetox.github.io"
+  repo-url: "https://github.com/bioinfo-recetox/bioinfo-test"
   repo-actions: [edit, issue]
   favicon: media/site/icon.png
   navbar:

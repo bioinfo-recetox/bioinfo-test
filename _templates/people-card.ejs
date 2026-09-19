@@ -3,10 +3,15 @@
 // Replaces Quarto's default per-field table rendering so people.yml's own
 // field names (name, role, group, bio, interests, links, alumni) can be
 // used directly, matching the fields listed in _quarto.yml's `fields:`.
+//
+// Renders a fixed set of sections (in this order), showing each heading
+// even when a section currently has nobody in it -- add a new group to
+// this list if the team ever needs one (and match it in people.yml).
+const sections = ["PIs", "Postdocs", "Doctoral students", "Alumni"];
 const cols = 3;
+
+function renderCard(item) {
 %>
-::: {.list .grid .quarto-listing-cols-<%= cols %>}
-<% for (const item of items) { %>
 ::: {.g-col-1}
 ```{=html}
 <div class="card h-100 people-card<%= item.alumni ? ' people-card-alumni' : '' %>">
@@ -15,7 +20,7 @@ const cols = 3;
   <% } %>
   <div class="card-body">
     <h5 class="card-title"><%= item.name %></h5>
-    <h6 class="card-subtitle text-muted"><%= item.role %><%= item.alumni ? ' (Alumni)' : '' %></h6>
+    <h6 class="card-subtitle text-muted"><%= item.role %></h6>
     <% if (item.bio) { %><p class="card-text"><%= item.bio %></p><% } %>
     <% if (item.interests && item.interests.length) { %>
     <p class="card-text people-card-interests"><small class="text-muted"><%= item.interests.join(' &middot; ') %></small></p>
@@ -33,5 +38,20 @@ const cols = 3;
 </div>
 ```
 :::
-<% } %>
+<%
+}
+
+for (const section of sections) {
+  const sectionItems = items.filter((item) => item.group === section);
+%>
+
+## <%= section %>
+
+<% if (sectionItems.length === 0) { %>
+*Nobody in this section right now.*
+<% } else { %>
+::: {.list .grid .quarto-listing-cols-<%= cols %>}
+<% for (const item of sectionItems) { renderCard(item); } %>
 :::
+<% } %>
+<% } %>

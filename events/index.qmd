@@ -6,7 +6,3 @@ aliases:
 ---
 
 No events are currently scheduled.
-
-To add one: create a new dated `.qmd` file in `events/` (see `README.md` for
-the recipe), then add a `listing:` block to this page — the same pattern
-used by `news/index.qmd` — to turn this into an automatic listing.

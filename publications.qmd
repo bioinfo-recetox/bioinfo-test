@@ -28,10 +28,7 @@ aliases:
   - /publication/2025-oto/
 ---
 
-All publications of the IB2 group. To add one, add a BibTeX entry to
-[`publications.bib`](https://github.com/bioinfo-recetox/ib2web/blob/main/publications.bib)
-(a `keywords` field drives the category filter below) — see `README.md` for
-the recipe.
+All publications of the IB2 group.
 
 ```{ojs}
 //| echo: false

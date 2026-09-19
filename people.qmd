@@ -20,4 +20,4 @@ aliases:
   - /author/maria-persico/
 ---
 
-Meet the IB2 team. To add someone, edit [`people.yml`](https://github.com/bioinfo-recetox/ib2web/blob/main/people.yml) — see `README.md` for the recipe.
+Meet the IB2 team.

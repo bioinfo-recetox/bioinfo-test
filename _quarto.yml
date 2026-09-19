@@ -22,21 +22,20 @@ project:
 # NOTE on Quarto version pinning: the version used to build this site locally
 # and in CI must always match. It is pinned in ONE place, the QUARTO_VERSION
 # env var in .github/workflows/publish.yml (added in a later step). Currently
-# pinned to 1.10.18 locally; keep both in sync when upgrading (see README.md).
+# pinned to 1.10.18 locally; keep both in sync when upgrading (see MAINTENANCE.md).
 
 website:
   title: "IB2: Integrative Bioinformatics and Biostatistics"
   description: "Integrative Bioinformatics and Biostatistics group @ RECETOX, Masaryk University"
 
-  # TODO (Step 7, needs owner confirmation): confirm actual GitHub org/repo
-  # name before wiring up GitHub Actions. Placeholder assumes the group keeps
-  # using the "bioinfo-recetox" org, matching the current bioinfo-recetox.github.io site.
+  # Confirmed final URL: this repo will become bioinfo-recetox.github.io
+  # itself (replacing the old Hugo one), served at the domain root.
   site-url: "https://bioinfo-recetox.github.io/"
-  repo-url: "https://github.com/bioinfo-recetox/ib2web"
+  repo-url: "https://github.com/bioinfo-recetox/bioinfo-recetox.github.io"
   repo-actions: [edit, issue]
   favicon: media/site/icon.png
-
   navbar:
+    logo: media/site/icon.svg
     left:
       - text: News
         href: news/index.qmd

@@ -1,14 +1,14 @@
-# People of the IB2 group.
+# People of the IB2 group. See MAINTENANCE.md for how to add someone.
 #
-# One entry per person. `group` controls which section of the People page
-# they appear in; `alumni: true` marks people no longer active in the group.
-# `photo` paths are relative to this file and are filled in when media is
-# converted (Step 3) — see README.md for how to add a new person.
+# `group` controls which section of the People page an entry appears in and
+# must be one of: PIs, Postdocs, Doctoral students, Alumni (the page always
+# shows all four sections, even empty ones). `alumni: true` marks people no
+# longer active in the group. `photo` paths are relative to this file.
 
 - key: evab
   name: Eva Budinská
   role: Head of IB2, Assistant Professor of Bioinformatics
-  group: Principal Investigators
+  group: PIs
   alumni: false
   photo: media/people/evab.jpg
   bio: My research interests include metagenomics, multi-omics bioinformatics and translational oncology.
@@ -30,7 +30,7 @@
 - key: vladp
   name: Vlad Popovici
   role: Associate Professor of Computer Science
-  group: Principal Investigators
+  group: PIs
   alumni: false
   photo: media/people/vladp.jpg
   bio: |
@@ -63,7 +63,7 @@
 - key: vahida
   name: Vahid Anari
   role: Postdoctoral Researcher
-  group: Researchers
+  group: Postdocs
   alumni: false
   photo: media/people/vahida.jpg
   interests:
@@ -75,7 +75,7 @@
 - key: danielam
   name: Daniela Majerčíková
   role: PhD student
-  group: Grad Students
+  group: Doctoral students
   alumni: false
   photo: media/people/danielam.jpg
   interests:
@@ -88,7 +88,7 @@
 - key: martinah
   name: Martina Čarnogurská (Hrivňáková)
   role: PhD student
-  group: Grad Students
+  group: Doctoral students
   alumni: false
   photo: media/people/martinah.jpg
   interests:

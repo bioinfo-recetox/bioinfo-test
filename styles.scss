@@ -30,3 +30,25 @@ $font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
 .pub-entry .pub-meta {
   color: var(--bs-secondary-color, #6c757d);
 }
+
+// Home page research highlights: alternating image/text rows.
+.research-row {
+  margin-block: 2.5rem;
+  align-items: center;
+}
+
+.research-img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+  display: block;
+  object-fit: cover;
+}
+
+// tumhet1.jpg is a very wide composite (tumor cells + data + a DNA helix);
+// left-align the crop so the actual tumor cell imagery stays visible instead
+// of the plain data-stream filler in the middle of the source image.
+.research-img-wide {
+  aspect-ratio: 4 / 3;
+  object-position: left center;
+}

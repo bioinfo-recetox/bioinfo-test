@@ -8,9 +8,11 @@ The **Integrative Bioinformatics and Biostatistics** group at RECETOX, Masaryk
 University, works at the intersection of computational pathology, microbiome
 research and cancer biostatistics.
 
-::: {.grid}
-
-::: {.g-col-12 .g-col-md-4}
+::: {.grid .research-row}
+::: {.g-col-12 .g-col-md-6}
+![](media/site/tissue1.jpg){.research-img fig-alt="Multiplex fluorescence microscopy image of colon tissue"}
+:::
+::: {.g-col-12 .g-col-md-6}
 ### [Computational pathology and transcriptomics](projects.qmd)
 
 We use deep learning for exploring whole slide images and combine the
@@ -18,8 +20,10 @@ extracted features with molecular data for gaining new insights into the
 cancer universe. We were the first to demonstrate that molecular subtypes of
 colon cancer can be predicted using pathology images.
 :::
+:::
 
-::: {.g-col-12 .g-col-md-4}
+::: {.grid .research-row}
+::: {.g-col-12 .g-col-md-6}
 ### [Microbiome and cancer](projects.qmd)
 
 Linking the microbiome to tumor progression. The microbiome modulates the
@@ -27,8 +31,16 @@ host immune response to cancer and plays a central role in tumor
 progression. Understanding these interactions may provide prognostic and
 predictive tools and hints towards novel therapeutic approaches.
 :::
+::: {.g-col-12 .g-col-md-6}
+![](media/site/bacteria1.jpg){.research-img fig-alt="Colored render of gut bacteria"}
+:::
+:::
 
-::: {.g-col-12 .g-col-md-4}
+::: {.grid .research-row}
+::: {.g-col-12 .g-col-md-6}
+![](media/site/tumhet1.jpg){.research-img .research-img-wide fig-alt="Composite image of tumor cells, sequencing data and a DNA double helix"}
+:::
+::: {.g-col-12 .g-col-md-6}
 ### [Tumor heterogeneity](projects.qmd)
 
 Bioinformatics explorations of intra-/inter-tumor heterogeneity. Both
@@ -36,7 +48,6 @@ inter-tumor and intra-tumor heterogeneity are major obstacles towards
 precision medicine. We develop bioinformatics approaches combining various
 *OMICS* for shedding light on this complex universe.
 :::
-
 :::
 
 ---
